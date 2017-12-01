@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" parent="Base.Theme.AppCompat.Light.DarkActionBar">DrinkingParty</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_video_chat">VideoChat</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_chat">Chat</string>
+    <string name="home">Home</string>
+    <string name="manual">Manual</string>
+    <string name="profile">Profile</string>
+    <string name="searchTitle">検索中</string>
+    <string name="search">相手を検索しています。</string>
+    <string name="denial">カメラまたはマイクへのアクセスが拒否されました。\n許可設定を行ってください。</string>
+    <string name="notRegis">プロフィールが登録されていません。</string>
+    <string name="notFound">検索を中断しました。</string>
+    <string name="save">登録が完了しました。</string>
+    <string name="saveError">ニックネームまたは性別が登録されていません。</string>
+    <string name="myid">自分の</string>
+    <string name="hangup">通話が終了しました。</string>
+    <string name="hangUp">通話を終了しますか？</string>
+    <string name="address">IPアドレス設定</string>
+    <string name="history">履歴</string>
+    <string name="historyTitle">IPアドレス履歴</string>
+    <string name="noHistoryTitle">IPアドレス履歴はありません。</string>
+    <string name="sameIP">すでの履歴に存在するIPアドレスです。</string>
+    <string name="allDelete">履歴全削除</string>
+    <string name="allDeleteOK">履歴全削除が完了しました。</string>
+    <string name="noHistory">削除する履歴が存在しません。</string>
+    <string name="registIP">が設定されました。</string>
+    <string name="manual1">
+        Drinking Partyは暇つぶしのアプリです。\n
+    </string>
+    <string name="manual2">
+        1人で宅飲みする際、宅飲み仲間を\n
+        探せるようにこのアプリを開発しました。\n
+    </string>
+    <string name="manual3">
+        ホーム画面\n
+        \n
+        ・画面の移動はスワイプ又は、上のタブをタップしてください。\n
+        \n
+        ・CALLtoMANを押すと男性、CALLtoWOMANを押すと女性と通話が繋がります。\n
+        \n
+        \n
+        プロフィール画面\n
+        \n
+        ・通話をする為に名前と性別を設定してください。(必須)\n
+        \n
+        ・名前は20文字以内で設定してください。\n
+        \n
+        \n
+        通話画面\n
+        \n
+        ・右下の小さな画面をタップすると全体画面と小さな画面に表示されている映像が入れ替わります。\n
+        \n
+        ・全体画面のどこかをタップすると周りのアイテムを隠す事ができます。\n
+        \n
+        通話画面ボタン説明
+    </string>
+    <string name="error">通信時にエラーが発生したので、\nホーム画面に戻ります。</string>
+
+</resources>

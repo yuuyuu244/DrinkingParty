@@ -1,0 +1,67 @@
+<resources>
+    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+
+    <!-- myspinnerの要素 -->
+    <dimen name="spinner_textSize">48sp</dimen>
+
+    <!-- button_pressedおよびbutton_defaultの要素 -->
+    <dimen name="buttonRadius">60dp</dimen>
+
+    <!-- activity_mainの要素 -->
+    <dimen name="main_tabHeight">210dp</dimen>
+
+    <!-- Activity_video_chatの要素 -->
+    <dimen name="video_llSecHeight">360dp</dimen>
+    <dimen name="video_llSecWidth">300dp</dimen>
+    <dimen name="video_wipeRightSpace">30dp</dimen>
+    <dimen name="video_wipeBottomSpace">180dp</dimen>
+    <item format="integer" name="video_spaceWeight" type="dimen">10</item>
+    <dimen name="video_nickTopSpace">30dp</dimen>
+    <dimen name="video_llNicWidth">600dp</dimen>
+    <dimen name="video_llNicHeight">210dp</dimen>
+    <dimen name="video_textSizeNic">60sp</dimen>
+    <dimen name="video_timerSize">60sp</dimen>
+
+    <!-- fragment_profの要素 -->
+    <dimen name="profile_overallPaddingLeft">90dp</dimen>
+    <dimen name="profile_overallPaddingRight">90dp</dimen>
+    <dimen name="profile_overallPaddingTop">210dp</dimen>
+    <dimen name="profile_textTitlePaddingLeft">30dp</dimen>
+    <dimen name="profile_titleTextSize">120sp</dimen>
+    <dimen name="profile_intervalSpace">9dp</dimen>
+    <dimen name="profile_llNicSexPaddingLeft">30dp</dimen>
+    <dimen name="profile_llNicSexPaddingRight">90dp</dimen>
+    <dimen name="profile_nicsexTextSize">45sp</dimen>
+    <dimen name="profile_textNicSexPaddingRight">30dp</dimen>
+    <dimen name="profile_eTextNicLayoutHeight">120dp</dimen>
+    <dimen name="profile_eTextNicPaddingLeft">30dp</dimen>
+    <dimen name="profile_nicETextSize">48sp</dimen>
+    <dimen name="profile_spinnerHeight">120dp</dimen>
+    <dimen name="profile_spinnerPaddingLeft">30dp</dimen>
+    <dimen name="profile_btnTextSize">60sp</dimen>
+    <item format="float" name="profile_topSpace" type="dimen">0.2</item>
+
+    <!-- fragment_callの要素 -->
+    <dimen name="call_overallPaddingTop">210dp</dimen>
+    <dimen name="call_titleWidth">750dp</dimen>
+    <dimen name="call_textSize">60sp</dimen>
+
+    <!-- fragment_manualの要素 -->
+    <dimen name="manual_scrollPaddingTop">210dp</dimen>
+    <dimen name="manual_llOverallPaddingTop">60dp</dimen>
+    <dimen name="manual_textTitlePadding">30dp</dimen>
+    <dimen name="manual_titleTextSize">75sp</dimen>
+    <dimen name="manual_titleBottomSpace">90dp</dimen>
+    <dimen name="manual_itemTextSize">60sp</dimen>
+    <dimen name="manual_explanationTextSize">54sp</dimen>
+    <dimen name="manual_textPaddingSize">15dp</dimen>
+    <dimen name="manual_spaceHeight">30dp</dimen>
+    <dimen name="manual_imageSize">150dp</dimen>
+    <dimen name="manual_miniImageSize">75dp</dimen>
+    <dimen name="manual_textPaddingLeft">30dp</dimen>
+    <dimen name="manual_textLastPaddingTop">60dp</dimen>
+
+</resources>

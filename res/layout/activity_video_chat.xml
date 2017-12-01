@@ -1,0 +1,131 @@
+<!-- 通話画面 -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="jjj.drinkingparty.MediaActivity">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+        android:orientation="vertical" android:background="@color/black_overlay"
+        android:gravity="right|bottom" android:id="@+id/llPrimary">
+
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+            <LinearLayout android:layout_width="@dimen/video_llSecWidth"
+                android:layout_height="@dimen/video_llSecHeight" android:orientation="horizontal"
+                android:id="@+id/llSecondary">
+
+                <!-- 自分の映像（小窓）を表示するキャンバス -->
+                <io.skyway.Peer.Browser.Canvas android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:id="@+id/svSecondary" />
+
+            </LinearLayout>
+            <!-- 右端と自分の映像（小窓）の間をあけるためのスペース -->
+            <Space android:layout_width="@dimen/video_wipeRightSpace"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <android.support.v4.widget.Space android:layout_width="match_parent"
+            android:layout_height="@dimen/video_wipeBottomSpace" />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <!-- 相手の映像（全体画面）を表示するキャンバス -->
+        <io.skyway.Peer.Browser.Canvas android:layout_width="match_parent"
+            android:layout_height="match_parent" android:id="@+id/svPrimary"
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_gravity="bottom" android:orientation="vertical">
+
+        <android.support.v4.widget.Space android:layout_width="match_parent"
+            android:layout_height="7dp" />
+
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+            android:gravity="right" android:orientation="vertical">
+
+            <!-- 下４つのボタン内包レイアウト -->
+            <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+                android:orientation="horizontal" android:gravity="center"
+                android:layout_weight="0.5" android:layout_gravity="bottom">
+
+                <android.support.v4.widget.Space android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="@dimen/video_spaceWeight" />
+
+                <!-- カメラ切り替えボタン -->
+                <ImageButton android:layout_width="0dp" android:layout_height="80dp"
+                    android:layout_weight="10" android:id="@+id/switchCameraAction"
+                    android:enabled="true" android:src="@drawable/camera"
+                    android:background="@null" />
+
+                <android.support.v4.widget.Space android:layout_width="5dp"
+                    android:layout_height="match_parent" android:layout_weight="1" />
+
+                <!-- 音関係ボタン -->
+                <ImageButton android:layout_width="0dp" android:layout_height="80dp"
+                    android:layout_weight="10" android:background="@null"
+                    android:src="@drawable/mic_change" android:id="@+id/microphone_change" />
+
+                <android.support.v4.widget.Space android:layout_width="5dp"
+                    android:layout_height="match_parent" android:layout_weight="1" />
+
+                <!-- ビデオオンオフボタン -->
+                <ImageButton android:layout_width="0dp" android:layout_height="80dp"
+                    android:layout_weight="10" android:background="@null"
+                    android:src="@drawable/video_change" android:id="@+id/videoAction" />
+
+                <android.support.v4.widget.Space android:layout_width="5dp"
+                    android:layout_height="match_parent" android:layout_weight="1" />
+
+                <!-- 通話終了（切断）ボタン -->
+                <ImageButton android:layout_width="0dp" android:layout_height="80dp"
+                    android:layout_weight="10" android:id="@+id/btnHangUp" android:enabled="true"
+                    android:src="@drawable/hang_up" android:background="@null" />
+
+                <android.support.v4.widget.Space android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="@dimen/video_spaceWeight" />
+
+
+            </LinearLayout>
+
+            <!-- 最下部とボタンのレイアウトの間のスペース -->
+            <android.support.v4.widget.Space android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <!-- 最上部とニックネームの間に入れるスペース -->
+        <android.support.v4.widget.Space android:layout_width="match_parent"
+            android:layout_height="@dimen/video_nickTopSpace" />
+
+        <!-- ニックネームと通話時間表示レイアウト -->
+        <LinearLayout android:layout_width="@dimen/video_llNicWidth"
+            android:layout_height="@dimen/video_llNicHeight" android:layout_gravity="center"
+            android:orientation="vertical" android:background="#96ffffff"
+            android:id="@+id/nickLayout">
+
+            <!-- ニックネーム表示 -->
+            <TextView android:id="@+id/nickname" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_gravity="center"
+                android:gravity="center" android:layout_weight="1" android:textColor="#000000"
+                android:textSize="@dimen/video_textSizeNic" android:text="not found ID" />
+
+            <!-- 通話時間表示 -->
+            <Chronometer android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:id="@+id/chronometer" android:layout_weight="1"
+                android:layout_gravity="center" android:textSize="@dimen/video_timerSize" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

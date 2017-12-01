@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- myspinnerの要素 -->
+    <dimen name="spinner_textSize">32sp</dimen>
+
+    <!-- button_pressedおよびbutton_defaultの要素 -->
+    <dimen name="buttonRadius">90dp</dimen>
+
+    <!-- activity_mainの要素 -->
+    <dimen name="main_tabHeight">140dp</dimen>
+
+    <!-- Activity_video_chatの要素 -->
+    <dimen name="video_llSecHeight">240dp</dimen>
+    <dimen name="video_llSecWidth">200dp</dimen>
+    <dimen name="video_wipeRightSpace">20dp</dimen>
+    <dimen name="video_wipeBottomSpace">140dp</dimen>
+    <item format="integer" name="video_spaceWeight" type="dimen">8</item>
+    <dimen name="video_nickTopSpace">20dp</dimen>
+    <dimen name="video_llNicWidth">400dp</dimen>
+    <dimen name="video_llNicHeight">140dp</dimen>
+    <dimen name="video_textSizeNic">40sp</dimen>
+    <dimen name="video_timerSize">40sp</dimen>
+
+    <!-- fragment_profの要素 -->
+    <dimen name="profile_overallPaddingLeft">60dp</dimen>
+    <dimen name="profile_overallPaddingRight">60dp</dimen>
+    <dimen name="profile_overallPaddingTop">140dp</dimen>
+    <dimen name="profile_textTitlePaddingLeft">20dp</dimen>
+    <dimen name="profile_titleTextSize">80sp</dimen>
+    <dimen name="profile_intervalSpace">6dp</dimen>
+    <dimen name="profile_llNicSexPaddingLeft">20dp</dimen>
+    <dimen name="profile_llNicSexPaddingRight">60dp</dimen>
+    <dimen name="profile_nicsexTextSize">30sp</dimen>
+    <dimen name="profile_textNicSexPaddingRight">20dp</dimen>
+    <dimen name="profile_eTextNicLayoutHeight">80dp</dimen>
+    <dimen name="profile_eTextNicPaddingLeft">20dp</dimen>
+    <dimen name="profile_nicETextSize">32sp</dimen>
+    <dimen name="profile_spinnerHeight">80dp</dimen>
+    <dimen name="profile_spinnerPaddingLeft">20dp</dimen>
+    <dimen name="profile_btnTextSize">40sp</dimen>
+    <item format="float" name="profile_topSpace" type="dimen">0.4</item>
+
+    <!-- fragment_callの要素 -->
+    <dimen name="call_overallPaddingTop">140dp</dimen>
+    <dimen name="call_titleWidth">500dp</dimen>
+    <dimen name="call_textSize">40sp</dimen>
+
+    <!-- fragment_manualの要素 -->
+    <dimen name="manual_scrollPaddingTop">140dp</dimen>
+    <dimen name="manual_llOverallPaddingTop">40dp</dimen>
+    <dimen name="manual_textTitlePadding">20dp</dimen>
+    <dimen name="manual_titleTextSize">50sp</dimen>
+    <dimen name="manual_titleBottomSpace">60dp</dimen>
+    <dimen name="manual_itemTextSize">40sp</dimen>
+    <dimen name="manual_explanationTextSize">36sp</dimen>
+    <dimen name="manual_textPaddingSize">10dp</dimen>
+    <dimen name="manual_spaceHeight">20dp</dimen>
+    <dimen name="manual_imageSize">100dp</dimen>
+    <dimen name="manual_miniImageSize">50dp</dimen>
+    <dimen name="manual_textPaddingLeft">20dp</dimen>
+    <dimen name="manual_textLastPaddingTop">40dp</dimen>
+
+    <!--  -->
+</resources>

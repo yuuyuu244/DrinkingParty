@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/fragment_prof"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context="jjj.drinkingparty.ProfFragment">
+
+    <ImageView android:layout_width="match_parent" android:layout_height="match_parent"
+        android:background="@drawable/drink3" />
+
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/profile_overallPaddingLeft"
+        android:paddingRight="@dimen/profile_overallPaddingRight"
+        android:paddingTop="@dimen/profile_overallPaddingTop">
+
+        <Space android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_weight="@dimen/profile_topSpace" />
+
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="2" android:gravity="center"
+            android:background="#64ffffff">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/profile_textTitlePaddingLeft" android:text="Profile"
+                android:textSize="@dimen/profile_titleTextSize" android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+        <Space android:layout_width="match_parent"
+            android:layout_height="@dimen/profile_intervalSpace" />
+
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="1"
+            android:paddingLeft="@dimen/profile_llNicSexPaddingLeft"
+            android:paddingRight="@dimen/profile_llNicSexPaddingRight"
+            android:gravity="center_vertical" android:background="#32ffffff">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="名前:" android:textSize="@dimen/profile_nicsexTextSize"
+                android:textColor="#ffffff"
+                android:paddingRight="@dimen/profile_textNicSexPaddingRight"
+                android:focusable="true" android:focusableInTouchMode="true" />
+
+            <EditText android:layout_width="match_parent"
+                android:layout_height="@dimen/profile_eTextNicLayoutHeight"
+                android:paddingLeft="@dimen/profile_eTextNicPaddingLeft"
+                android:background="@drawable/border" android:inputType="textPersonName"
+                android:hint="20文字以内" android:text="" android:textSize="@dimen/profile_nicETextSize"
+                android:textColor="@color/textColor" android:textColorHint="#d7d7d7"
+                android:maxLength="20" android:ems="10" android:id="@+id/editText" />
+
+        </LinearLayout>
+
+        <Space android:layout_width="0dp" android:layout_height="@dimen/profile_intervalSpace" />
+
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="1"
+            android:paddingLeft="@dimen/profile_llNicSexPaddingLeft"
+            android:paddingRight="@dimen/profile_llNicSexPaddingRight"
+            android:gravity="center_vertical" android:background="#32ffffff">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="性別:" android:textSize="@dimen/profile_nicsexTextSize"
+                android:textColor="#ffffff"
+                android:paddingRight="@dimen/profile_textNicSexPaddingRight" />
+
+            <Spinner android:layout_width="match_parent"
+                android:layout_height="@dimen/profile_spinnerHeight"
+                android:paddingLeft="@dimen/profile_spinnerPaddingLeft"
+                android:background="@drawable/border" android:gravity="center"
+                android:id="@+id/sexSpinner" android:spinnerMode="dialog" />
+
+        </LinearLayout>
+
+        <Space android:layout_width="0dp" android:layout_height="@dimen/profile_intervalSpace" />
+
+        <Space android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center">
+
+            <Space android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button android:id="@+id/enter" android:layout_width="wrap_content"
+                android:layout_height="match_parent" android:layout_weight="4" android:text="ENTER"
+                android:textSize="@dimen/profile_btnTextSize" android:textColor="#ffffff"
+                android:background="@drawable/button_state" />
+
+            <Space android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_weight="1"></LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

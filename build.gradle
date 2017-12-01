@@ -1,0 +1,52 @@
+apply plugin: 'com.android.application'
+
+
+
+repositories {
+    mavenLocal()
+//	mavenCentral()
+}
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "25.0.0"
+
+    defaultConfig {
+        applicationId "jjj.drinkingparty"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+
+        jackOptions {
+            enabled true
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    compile(name: 'SkyWay', ext: 'aar')
+    compile 'com.android.support:support-v4:24.2.1'
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile files('libs/mysql-connector-java-5.1.40-bin.jar')
+    compile 'com.android.support:design:24.+'
+    compile 'com.google.code.gson:gson:2.8.0'
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}

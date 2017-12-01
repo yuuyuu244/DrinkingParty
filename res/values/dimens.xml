@@ -1,0 +1,66 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- myspinnerの要素 -->
+    <dimen name="spinner_textSize">16sp</dimen>
+
+    <!-- button_pressedおよびbutton_defaultの要素 -->
+    <dimen name="buttonRadius">30dp</dimen>
+
+    <!-- activity_mainの要素 -->
+    <dimen name="main_tabHeight">70dp</dimen>
+
+    <!-- Activity_video_chatの要素 -->
+    <dimen name="video_llSecHeight">120dp</dimen>
+    <dimen name="video_llSecWidth">100dp</dimen>
+    <dimen name="video_wipeRightSpace">10dp</dimen>
+    <dimen name="video_wipeBottomSpace">100dp</dimen>
+    <item format="integer" name="video_spaceWeight" type="dimen">1</item>
+    <dimen name="video_nickTopSpace">10dp</dimen>
+    <dimen name="video_llNicWidth">200dp</dimen>
+    <dimen name="video_llNicHeight">70dp</dimen>
+    <dimen name="video_textSizeNic">20sp</dimen>
+    <dimen name="video_timerSize">20sp</dimen>
+
+    <!-- fragment_profの要素 -->
+    <dimen name="profile_overallPaddingLeft">30dp</dimen>
+    <dimen name="profile_overallPaddingRight">30dp</dimen>
+    <dimen name="profile_overallPaddingTop">70dp</dimen>
+    <dimen name="profile_textTitlePaddingLeft">10dp</dimen>
+    <dimen name="profile_titleTextSize">40sp</dimen>
+    <dimen name="profile_intervalSpace">3dp</dimen>
+    <dimen name="profile_llNicSexPaddingLeft">10dp</dimen>
+    <dimen name="profile_llNicSexPaddingRight">30dp</dimen>
+    <dimen name="profile_nicsexTextSize">15sp</dimen>
+    <dimen name="profile_textNicSexPaddingRight">10dp</dimen>
+    <dimen name="profile_eTextNicLayoutHeight">40dp</dimen>
+    <dimen name="profile_eTextNicPaddingLeft">10dp</dimen>
+    <dimen name="profile_nicETextSize">16sp</dimen>
+    <dimen name="profile_spinnerHeight">40dp</dimen>
+    <dimen name="profile_spinnerPaddingLeft">10dp</dimen>
+    <dimen name="profile_btnTextSize">20sp</dimen>
+    <item format="integer" name="profile_topSpace" type="dimen">1</item>
+
+    <!-- fragment_callの要素 -->
+    <dimen name="call_overallPaddingTop">70dp</dimen>
+    <dimen name="call_titleWidth">250dp</dimen>
+    <dimen name="call_textSize">20sp</dimen>
+
+    <!-- fragment_manualの要素 -->
+    <dimen name="manual_scrollPaddingTop">70dp</dimen>
+    <dimen name="manual_llOverallPaddingTop">20dp</dimen>
+    <dimen name="manual_textTitlePadding">10dp</dimen>
+    <dimen name="manual_titleTextSize">25sp</dimen>
+    <dimen name="manual_titleBottomSpace">30dp</dimen>
+    <dimen name="manual_itemTextSize">20sp</dimen>
+    <dimen name="manual_explanationTextSize">18sp</dimen>
+    <dimen name="manual_textPaddingSize">5dp</dimen>
+    <dimen name="manual_spaceHeight">10dp</dimen>
+    <dimen name="manual_imageSize">50dp</dimen>
+    <dimen name="manual_miniImageSize">25dp</dimen>
+    <dimen name="manual_textPaddingLeft">10dp</dimen>
+    <dimen name="manual_textLastPaddingTop">20dp</dimen>
+
+</resources>
