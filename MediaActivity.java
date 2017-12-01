@@ -50,6 +50,7 @@ import static jjj.drinkingparty.MyApplication.getContext;
 /**
  * 通話画面のクラス.
  *
+ *
  * @author Yuki_Kikuya
  * @see <a href = "https://nttcom.github.io/skyway/docs/#Android-mediaconnection">SkyWayドキュメント</a>
  * @see <a href = "https://github.com/nttcom/SkyWay-Android-SDK/releases/tag/v0.2.2">SkyWay Sample コード</a>
