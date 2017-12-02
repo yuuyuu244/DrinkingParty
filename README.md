@@ -1,4 +1,9 @@
 # DrinkingParty
+
+|承認|作成|
+|--|--|
+|Eshiro|Kikuya|
+
 ## English ver.
 for making Android App (Video chat)
 
