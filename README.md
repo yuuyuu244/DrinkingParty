@@ -4,6 +4,11 @@
 |--|--|
 |Eshiro|Kikuya|
 
+[Revision]
+|version|author|date|
+|--|--|--|
+|1.00|Kikuya|2017.12.01|
+
 ## English ver.
 for making Android App (Video chat)
 
